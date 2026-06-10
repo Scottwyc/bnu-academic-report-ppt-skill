@@ -66,3 +66,6 @@ For a paper PDF, first create a detailed paper analysis report and visual asset 
 
 Template presenter fields use `XXX` placeholders. Replace them in generated reports/decks with the actual presenter information as needed.
 
+## License
+
+MIT. See `LICENSE`.
