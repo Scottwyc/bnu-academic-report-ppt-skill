@@ -22,13 +22,20 @@ Important assets:
 - `bnu_wordmark_white.png` for dark header/cover bars.
 - `bnu_wordmark_blue.png` for light backgrounds only.
 - `sss_bnu_logo.png` or white SSS logo assets when the cover needs the School of Systems Science mark.
-- `模板风格.png` as the visual reference for the two-level BNU navigation style.
+- `模板风格.png` as the quick 2x3 visual gallery exported from the reference PPTX.
+- `style_examples/*.png` for individual representative slide screenshots: cover, method framework, method figure, result figure, table, and summary/outlook.
 
 Use the full reference deck below as the concrete quality target for style and density:
 
 `templates/pptx/bnu_paper_deep_analysis_reference_v58.pptx`
 
 Match its main traits: dark-blue cover bar, white BNU wordmark, two-level content navigation, gold active chapter, blue active subsection mask, clean direct image insertion, centered close captions, no lower-left footer, and a simple `谢谢大家` ending slide.
+
+When the reference deck changes, regenerate screenshots with:
+
+```bash
+python scripts/export_style_examples.py
+```
 
 ## Header
 

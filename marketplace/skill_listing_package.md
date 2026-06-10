@@ -29,7 +29,7 @@ The skill defines a structured PPT-ready Markdown format, bundles BNU/SSS visual
 - Uses BNU/SSS academic minimal styling with two-level navigation headers.
 - Preserves figure aspect ratios and validates missing images.
 - Produces optional PDF/PNG previews when `libreoffice` and `pdftoppm` are available.
-- Bundles reference style assets, sample decks, and slide brief templates.
+- Bundles reference style assets, multi-page exported style screenshots, sample decks, and slide brief templates.
 
 ## Use Cases
 

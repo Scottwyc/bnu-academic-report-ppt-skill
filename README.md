@@ -8,6 +8,8 @@ Codex skill for generating Beijing Normal University / School of Systems Science
 
 The skill is designed for Chinese academic presentations. It bundles BNU/SSS visual assets, style references, PPT-ready Markdown conventions, and a rendering wrapper that validates generated PPTX decks.
 
+Style examples are exported from the bundled anonymized reference PPTX, including cover, method framework, figure-heavy result, table, and summary/outlook pages.
+
 ## What It Produces
 
 - editable `.pptx` slide deck;
@@ -58,8 +60,8 @@ For a paper PDF, first create a detailed paper analysis report and visual asset 
 
 - `SKILL.md`: Codex skill entry point and workflow.
 - `references/`: input modes, style rules, and PPT-ready Markdown template.
-- `scripts/`: rendering/validation wrapper.
-- `assets/`: BNU/SSS logo and style assets.
+- `scripts/`: rendering/validation wrapper and style-example exporter.
+- `assets/`: BNU/SSS logo assets plus exported representative style screenshots.
 - `templates/`: style examples and reference PPTX decks.
 
 ## Privacy Note

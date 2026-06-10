@@ -93,10 +93,12 @@ python ~/.codex/skills/general/bnu-academic-report-ppt/scripts/render_bnu_academ
 - `assets/bnu_wordmark_white.png`: transparent white BNU horizontal wordmark for dark headers and cover bars.
 - `assets/bnu_wordmark_blue.png`: blue BNU wordmark for light backgrounds.
 - `assets/sss_bnu_logo.png`: School of Systems Science / BNU logo asset.
-- `assets/模板风格.png`: BNU navigation-style reference image.
+- `assets/模板风格.png`: 2x3 gallery exported from the anonymized reference deck; use it as the quick visual target.
+- `assets/style_examples/*.png`: individual representative slide screenshots covering cover, method framework, method figure, result figure, table, and summary/outlook layouts.
 - `templates/style/bnu_sss_academic_minimal_style.yaml`: style tokens.
 - `templates/pptx/bnu_sss_academic_minimal_sample.pptx`: compact sample deck.
 - `templates/pptx/bnu_paper_deep_analysis_reference_v58.pptx`: full refined reference deck for the target effect.
+- `scripts/export_style_examples.py`: regenerate the bundled style screenshots from the reference PPTX.
 
 ## Related Skills
 
