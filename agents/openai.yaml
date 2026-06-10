@@ -1,0 +1,5 @@
+interface:
+  display_name: "BNU Academic Report PPT"
+  short_description: "Build BNU-style Chinese academic report PPTX"
+  brand_color: "#1C345B"
+  default_prompt: "Use $bnu-academic-report-ppt to turn my paper PDF, detailed Markdown report, or PPT-ready Markdown into a BNU academic report style PPTX."

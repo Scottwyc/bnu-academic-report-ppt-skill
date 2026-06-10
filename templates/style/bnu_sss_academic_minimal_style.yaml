@@ -1,0 +1,52 @@
+name: bnu_sss_academic_minimal
+purpose: literature_analysis_ppt
+brand:
+  institution: Beijing Normal University
+  school: School of Systems Science
+  logo_primary: ../../assets/sss_bnu_logo.png
+  logo_secondary: ../../assets/bnu_wordmark_blue.png
+palette:
+  primary: "#355D9D"
+  primary_dark: "#1C345B"
+  accent: "#F0C95A"
+  text: "#1C222B"
+  muted: "#636B74"
+  line: "#DEE2E8"
+  background: "#F8F9FB"
+typography:
+  zh_pptx_primary: "Microsoft YaHei"
+  zh_open_source_primary: "Noto Sans CJK SC"
+  zh_fallbacks:
+    - "Source Han Sans SC"
+    - "PingFang SC"
+    - "Hiragino Sans GB"
+    - "WenQuanYi Micro Hei"
+    - "SimHei"
+  en: "Arial"
+  require_east_asian_font: true
+layout:
+  aspect_ratio: "16:9"
+  density: "academic_compact"
+  max_bullets_per_slide: 6
+  card_radius_px: 8
+workflow:
+  source_document: analysis.md
+  optional_bibliography: refs.bib
+  intermediate_outline: slide_outline.json
+  outputs:
+    - pptx
+    - pdf
+    - html
+slide_schema:
+  literature_paper:
+    fields:
+      - why
+      - how
+      - evidence
+      - limitation
+      - takeaway
+evidence_rules:
+  require_journal: true
+  require_publication_or_acceptance_date: true
+  require_doi_or_url: true
+  require_pdf_status: true
